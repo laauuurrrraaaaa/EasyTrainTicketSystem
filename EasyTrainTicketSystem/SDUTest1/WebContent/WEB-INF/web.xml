@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>SDUTest1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<servlet-class>servlets.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<servlet-class>servlets.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<servlet-class>servlets.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Test</servlet-name>
+  	<url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TrainInsertion</servlet-name>
+  	<servlet-class>servlets.TrainInsertion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TrainInsertion</servlet-name>
+  	<url-pattern>/TrainInsertion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TrainUpdate</servlet-name>
+  	<servlet-class>servlets.TrainUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TrainUpdate</servlet-name>
+  	<url-pattern>/TrainUpdate</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>TrainDeletion</servlet-name>
+  	<servlet-class>servlets.TrainDeletion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TrainDeletion</servlet-name>
+  	<url-pattern>/TrainDeletion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TicketInsertion</servlet-name>
+  	<servlet-class>servlets.TicketInsertion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TicketInsertion</servlet-name>
+  	<url-pattern>/TicketInsertion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TicketUpdate</servlet-name>
+  	<servlet-class>servlets.TicketUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TicketUpdate</servlet-name>
+  	<url-pattern>/TicketUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TicketDeletion</servlet-name>
+  	<servlet-class>servlets.TicketDeletion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TicketDeletion</servlet-name>
+  	<url-pattern>/TicketDeletion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>BuyTicketInsertion</servlet-name>
+  	<servlet-class>servlets.BuyTicketInsertion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BuyTicketInsertion</servlet-name>
+  	<url-pattern>/BuyTicketInsertion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>BuyTicketUpdate</servlet-name>
+  	<servlet-class>servlets.BuyTicketUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BuyTicketUpdate</servlet-name>
+  	<url-pattern>/BuyTicketUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>BuyTicketDeletion</servlet-name>
+  	<servlet-class>servlets.BuyTicketDeletion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BuyTicketDeletion</servlet-name>
+  	<url-pattern>/BuyTicketDeletion</url-pattern>
+  </servlet-mapping>
+</web-app>
